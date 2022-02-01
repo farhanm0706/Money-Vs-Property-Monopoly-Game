@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: burlywood;
+}
+
+#container{
+    background-color:cyan;
+    width: 90.5vw;
+    height: 99vh;
+    /*display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 5;*/
+    position: relative;
+    display: flex;
+    margin-left: 74px;
+    margin-top: 10px;
+    border: 2px solid rgb(134, 117, 95);
+      
+}
+.box{
+    background-color: seashell;
+    width: 140px;
+    height: 140px; 
+  display: flex;
+ margin: 10px;
+
+
+}
+.one{
+    padding-top: 5px;
+}
+.two{
+    margin-left: 30px;
+}
+.sixteen{
+    margin-left: 25px;
+}
+.seven{
+    position: absolute;
+   left: 80vw;
+   padding-top: 5px;
+
+}
+.two,.three,.four,.five,.six,.eight,.nine,.ten,.twelve,.thirteen,.fourteen,.fifteen,.sixteen,.eighteen,.nineteen,.twenty{
+    width: 110px;
+    height: 110px;
+  /*margin: 20px 70px 40px 40px;*/
+
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 190px;
+    margin: 6px;
+    margin-left: 0px;
+    top: 7px;
+
+    
+}
+.second{
+    position: absolute;
+    left: 80.7vw;
+    top: 160px;
+    
+
+}
+.eleven{
+    position: absolute;
+    left:80vw ;
+    bottom: 0px;
+    padding-top: 5px;
+}
+.third{
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: 7px;
+    left: 190px;
+    margin: 6px;
+
+}
+.seventeen{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 5px;
+}
+.fourth{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    top: 160px;
+    left: 13px;
+    margin: 10px;
+}
+.two,.three,.four,.five,.six{
+    margin-right: 90px;
+    padding-top: 5px;
+}
+.twelve,.thirteen,.fourteen,.fifteen,.sixteen{
+    margin-right: 90px;
+  
+    padding-top: 5px;
+}
+.eight,.nine,.ten{
+    margin: 15px 15px 15px 15px;
+    padding-top: 5px;
+}
+.eighteen,.nineteen,.twenty{
+    margin: 0px 15px 15px 0px; 
+    padding-top: 5px;
+}
+.score{
+    background-color: springgreen;
+    color:black;
+    height: 170px;
+    width: 280px;
+    position: absolute;
+    top: 32vh;
+    left: 36vw;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#btn1{
+    background-color:red;
+    color:white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+#btn2{
+    background-color:blue;
+    color:white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.buttons{
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+    
+}
+#btn3{
+    background-color:greenyellow;
+    color:black;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top:0px;
+    left:39px;
+}
+
